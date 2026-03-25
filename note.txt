@@ -24,3 +24,7 @@
       <p>contact us</p>
     </footer>
   </div>
+
+
+
+//We cannot directly render the objects in react, we have to use array instead - i.e we cannot display obkect as a whole in react.
