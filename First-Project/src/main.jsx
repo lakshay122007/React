@@ -4,12 +4,13 @@ import { createRoot } from 'react-dom/client'
 import Header from './Header.jsx'
 import Mainn from './Mainn.jsx'
 import App from './App.jsx'
+import NewHeader from './components/New_Header.jsx'
+import App_New from './Lec_30March.jsx'
 const c = "gulugulu"
 createRoot(document.getElementById('root')).render(
   <div>
-    <Header />
     <Mainn />
-    <App />
+    <App_New />
   </div>
 
 )
