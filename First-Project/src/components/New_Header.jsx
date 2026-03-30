@@ -5,7 +5,7 @@ function NewHeader(){
     return (
         <div>
             <div>
-                <img src = {Logo}/>
+                <img src = {Logo} width = "100px"/>
             </div>
             <div>
                 <p>Welcome People</p>
