@@ -10,7 +10,7 @@ const c = "gulugulu"
 createRoot(document.getElementById('root')).render(
   <div>
     <Mainn />
-    <App_New />
+    <App />
   </div>
 
 )
