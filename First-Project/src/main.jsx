@@ -6,11 +6,12 @@ import Mainn from './Mainn.jsx'
 import App from './App.jsx'
 import NewHeader from './components/New_Header.jsx'
 import App_New from './Lec_30March.jsx'
-const c = "gulugulu"
+import AppLift from './App_Lifting_up.jsx'
+
+// const c = "gulugulu"
 createRoot(document.getElementById('root')).render(
   <div>
-    <Mainn />
-    <App />
+    <AppLift/>
   </div>
 
 )

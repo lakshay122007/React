@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import App_state from './App_state'
+
 // const student = {
 //   name: "Akshat",
 //   friend : "gulu gulu",
@@ -21,8 +22,10 @@ function App() {
   //     })}
   //   </ul>
   // </> 
+  <>
+    </>
 
-  <App_state/>
+
   ) 
 }
 
