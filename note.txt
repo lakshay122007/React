@@ -1,9 +1,12 @@
 
 //We cannot directly render the objects in react, we have to use array instead - i.e we cannot display obkect as a whole in react.
-
+//UseState is imported from react and passes/return  an array, and introduce it with 'state variable' and 'state function'/\.
 // App state management - use of UseState from react
 import { UseState } from 'react'
-- we use array destructuring and write a key word 'set' before defining oither key/property.
+- ***we use array destructuring and write a key word 'set' before defining oither key/property.***
 -ex: //let [count, setCount] = useState(0)
+//*** props are immutable ***
+
+//Lifting State Up-
 
 
