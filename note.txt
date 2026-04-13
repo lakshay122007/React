@@ -8,5 +8,19 @@ import { UseState } from 'react'
 //*** props are immutable ***
 
 //Lifting State Up-
+//App control
+//Form input control
 
+
+setFormData({...formData, [name] : e.target.value}) -----> rest form ka data get kra, then name field ke data ko e.target.value ke data se overwrite kr diya.
+
+
+//next hook - 
+-- > **useEffect()** - it handles all the side effects, such as fetching data etc.
+
+suppose, to fetch, we create a function, but everytime it re renders,  the data is fetched again and again, 
+to prevent this we it in within the 'useEffect' hook. 
+
+flow - 1. the component renders ---> 2. fetch runs --> 3. setUsers(a useState or any data) updated --> 4.react re-renders ---> Fetch runs again. 
+** THis goes in looop. from step 2 to 4 to sgain at 2.
 
