@@ -24,3 +24,8 @@ to prevent this we it in within the 'useEffect' hook.
 flow - 1. the component renders ---> 2. fetch runs --> 3. setUsers(a useState or any data) updated --> 4.react re-renders ---> Fetch runs again. 
 ** THis goes in looop. from step 2 to 4 to sgain at 2.
 
+useEffect(()=>{
+    -------
+},[]) --> the array passed as second argument is called "DEPENDENCY ARRAY" . (first argument is a callback function in useEffect())
+therefore, if you want to run 1 time, the keep the array empty, i.e it dfoes not 'Depend' on other thing, and run only once.(doe not re renders again)
+thus, we use fetch or any other external things inside the useEffect so that these things doesn't re-renders again.
