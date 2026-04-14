@@ -10,7 +10,6 @@ import { createRoot } from 'react-dom/client'
 // import AppControl from './App_controlled.jsx'
 import App_Effect from './App_Effect.jsx'
 
-// const c = "gulugulu"
 createRoot(document.getElementById('root')).render(
   <div>
     <App_Effect/>
