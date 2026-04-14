@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 export default function Timer(){
     let [time, setTime] = useState(0)
     useEffect(()=>{
-        let id = setInterval(()=>{
+        const id = setInterval(()=>{
             setTime((prev) => prev + 1)
         },1000)
 
@@ -14,6 +14,6 @@ export default function Timer(){
     }, [])
 
     return (
-        <h1>Timer : {time}</h1>
+        <h1>Time: {time}</h1>
     )
 }
