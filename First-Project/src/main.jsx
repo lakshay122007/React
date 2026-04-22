@@ -10,10 +10,11 @@ import { createRoot } from 'react-dom/client'
 // import AppControl from './App_controlled.jsx'
 import App_Effect from './App_Effect.jsx'
 import App_fetch from './App_fetch.jsx'
+import App_tail from './App_tail.jsx'
 
 createRoot(document.getElementById('root')).render(
   <div>
-    <App_fetch/>
+    <App_tail/>
   </div>
 
 )
