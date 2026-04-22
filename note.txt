@@ -29,3 +29,20 @@ useEffect(()=>{
 },[]) --> the array passed as second argument is called "DEPENDENCY ARRAY" . (first argument is a callback function in useEffect())
 therefore, if you want to run 1 time, the keep the array empty, i.e it dfoes not 'Depend' on other thing, and run only once.(doe not re renders again)
 thus, we use fetch or any other external things inside the useEffect so that these things doesn't re-renders again.
+
+
+
+
+//TAILWIND - Framework
+
+- it have pre-defined Classes
+- it has 3 part - 
+1. Base : predefined base styling
+2. component : predefined components
+3. Utility : seperate properties for every css property(ex. .pt{
+                                            padding-top:4rem -----> pt - 4 , this means padding from top with 4rem. 
+                                        })
+
+
+
+
