@@ -8,8 +8,8 @@ import { createRoot } from 'react-dom/client'
 // import App_New from './Lec_30March.jsx'
 // import AppLift from './App_Lifting_up.jsx'
 // import AppControl from './App_controlled.jsx'
-import App_Effect from './App_Effect.jsx'
-import App_fetch from './App_fetch.jsx'
+// import App_Effect from './App_Effect.jsx'
+// import App_fetch from './App_fetch.jsx'
 import App_tail from './App_tail.jsx'
 
 createRoot(document.getElementById('root')).render(
