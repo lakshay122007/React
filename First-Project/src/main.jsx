@@ -1,5 +1,8 @@
-import { StrictMode } from 'react'
+// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+
+
 // import "./index.css"
 // import Header from './Header.jsx'
 // import Mainn from './Mainn.jsx'
@@ -10,11 +13,11 @@ import { createRoot } from 'react-dom/client'
 // import AppControl from './App_controlled.jsx'
 // import App_Effect from './App_Effect.jsx'
 // import App_fetch from './App_fetch.jsx'
-import App_tail from './App_tail.jsx'
+// import App_tail from './App_tail.jsx'
+import App_Router from './App_routing'
 
 createRoot(document.getElementById('root')).render(
-  <div>
-    <App_tail/>
-  </div>
-
+  <BrowserRouter>
+      <App_Router/>
+  </BrowserRouter>
 )
